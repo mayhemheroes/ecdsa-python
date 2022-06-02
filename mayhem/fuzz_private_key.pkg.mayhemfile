@@ -1,0 +1,4 @@
+project: PROJECT
+target: fuzz_private_key.pkg
+cmds:
+- cmd: /out/fuzz_private_key.pkg
