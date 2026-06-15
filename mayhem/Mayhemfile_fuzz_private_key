@@ -1,0 +1,8 @@
+project: ecdsa-python
+target: fuzz_private_key
+testsuite:
+  - file://mayhem/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_private_key
+    libfuzzer: true
+    timeout: 30
